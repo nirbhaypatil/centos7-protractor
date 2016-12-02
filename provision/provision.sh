@@ -42,8 +42,6 @@ else
 
 	sudo yum -y install git
 fi
-#git config --global user.name "nirbhay patil"
-#git config --global user.email "nirbhay.patil@capgemini.com"
 
 
 echo "***********************************"
