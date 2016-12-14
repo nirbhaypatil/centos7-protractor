@@ -42,6 +42,8 @@ else
 
 	sudo yum -y install git
 fi
+#git config --global user.name "nirbhay patil"
+#git config --global user.email "nirbhay.patil@capgemini.com"
 
 
 echo "***********************************"
@@ -62,13 +64,4 @@ else
 	sudo npm config set strict-ssl false
 fi	
 
-#sudo npm cache clean -f  
-if [ -x /usr/bin/protractor ];then
-
-	echo "protractor is already installed"
-else
-
-	echo "installing protractor"
-	sudo npm install -g protractor
-fi
 
